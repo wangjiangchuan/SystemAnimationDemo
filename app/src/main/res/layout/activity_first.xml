@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="msgproject.xmpp.cuicui.systemanimationdemo.FirstActivity"
+
+    android:id="@+id/first_layout_main">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activity Task id:"
+            android:id="@+id/first_act_taskid"
+            android:textSize="@dimen/text_size"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:text="Activity MSG:"
+            android:id="@+id/first_act_msg"
+            android:padding="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/first_act_next"
+            android:text="NEXT ACTIVITY"
+            android:padding="10dp"
+            android:textSize="@dimen/text_size"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/new_window"
+            android:text="new dialog"
+            android:textSize="@dimen/text_size"
+            android:padding="10dp"/>
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_visible"
+            android:textSize="@dimen/text_size"
+            android:text="VISIABLE"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/first_image"
+            android:src="@drawable/meizu"/>
+    </LinearLayout>
+
+</RelativeLayout>
